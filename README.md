@@ -16,17 +16,18 @@ In each case, mini validation routines have been programmed into the script - ju
 
 To obtain results in report, set variable:
 
+```
 see_results = True
-
+```
 The script is capable of calculating precisions accuracy for 32, 64 and 128 bit floating-point schemes.
 
 #——————————
 
 - part2.py
 To obtain results in report, set variable:
-
+```
 see_results = True
-
+```
 This script performs all elements asked in Part (b).
 
 A user can input an NxN matrix A of their choice, and an N dimensional vector b of their choice, at the top of the script.
@@ -42,9 +43,9 @@ The script is pre-programmed to print:
 
 - part3.py
 To obtain results, set variable:
-
+```
 see_results = True
-
+```
 This part takes the tabulated data in the form of a .csv file - this could easily be modified is the data is of another form in the future. 
 The user can input what .csv file they want interpolated, and set the number of increments over which the interpolation is performed.
 
@@ -52,13 +53,14 @@ The script is pre-programmed to show:
 	- Scatter Plot of Data Set
 	- Linear Interpolating Function 
 	- Cubic Spline Interpolating Function with number of increments set by user (100 found to be fine enough).
+
 #——————————
 
 - part4.py
 To obtain results, set variable:
-
+```
 see_results = True
-
+```
 The user can define all of the quantities they desire at the start of the script: Period,Number of samples, delta_t…
 The script is also designed to work for any input functions, they just have to be changed by the user.
 
@@ -72,9 +74,11 @@ The script is pre-programmed to plot the required results, plus some extra graph
 
 - part5.py
 To obtain results required in To obtain results in report, set variable:
-
+```
 see_results = True,
-numerical_solution = False —— this variable get be set = True, to see numerical solutions to rejection method without analytically calculated CDF inverse (takes longer to run)
+numerical_solution = False
+```
+—— this variable get be set = True, to see numerical solutions to rejection method without analytically calculated CDF inverse (takes longer to run)
 
 At the top of the script, the user can define all the parameters required - number of samples, bins for plotting..etc.
 The user can also change what pdf’s they want to transform the uniform deviate into.
