@@ -10,8 +10,9 @@ Various computational methods for physics
 
 
 In each case, mini validation routines have been programmed into the script - just set validation_routine = True at the top to see these run
+
 #——————————
--part1.py:
+- part1.py:
 
 To obtain results in report, set variable:
 
@@ -20,7 +21,8 @@ see_results = True
 The script is capable of calculating precisions accuracy for 32, 64 and 128 bit floating-point schemes.
 
 #——————————
--part2.py
+
+- part2.py
 To obtain results in report, set variable:
 
 see_results = True
@@ -37,7 +39,8 @@ The script is pre-programmed to print:
 	- The inverse of the matrix A
 	
 #——————————
--part3.py
+
+- part3.py
 To obtain results, set variable:
 
 see_results = True
@@ -50,6 +53,7 @@ The script is pre-programmed to show:
 	- Linear Interpolating Function 
 	- Cubic Spline Interpolating Function with number of increments set by user (100 found to be fine enough).
 #——————————
+
 - part4.py
 To obtain results, set variable:
 
@@ -65,6 +69,7 @@ The script is pre-programmed to plot the required results, plus some extra graph
 	- The result of the convolution compared to scipy.convolve for robustness
 
 #——————————
+
 - part5.py
 To obtain results required in To obtain results in report, set variable:
 
